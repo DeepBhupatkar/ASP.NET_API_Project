@@ -34,9 +34,13 @@ Step 2 :Once the project is running, navigate to the Swagger documentation to ex
 
 Contributions to this project are welcome! To contribute:
 1.Fork the repository.
+
 2.Create a new branch for your feature or bug fix.
+
 3.Make your changes and test them thoroughly.
+
 4.Commit your changes and push them to your fork.
+
 5.Submit a pull request, explaining the changes you've made.
 
         
