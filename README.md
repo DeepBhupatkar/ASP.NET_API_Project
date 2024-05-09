@@ -8,11 +8,11 @@ This project is an API developed using ASP.NET which connects to a SQL database.
 
 To run this project, ensure you have the following prerequisites installed:
 
- Visual Studio with ASP.NET support
- Docker Desktop for macOS
- Microsoft SQL Server Management Studio (SSMS) Docker image
- Access to a SQL database
- Basic knowledge of configuring ASP.NET projects and Docker
+ 1. Visual Studio with ASP.NET support
+ 2. Docker Desktop for macOS
+ 3. Microsoft SQL Server Management Studio (SSMS) Docker image
+ 4. Access to a SQL database
+ 5. Basic knowledge of configuring ASP.NET projects and Docker
 
 Additionally, you'll need to modify the connection string in the appsettings.json file to match your database requirements.
 
