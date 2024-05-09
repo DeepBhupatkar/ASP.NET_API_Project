@@ -1,0 +1,95 @@
+{
+  "version": 2,
+  "dgSpecHash": "wOWY+fBAj43svVZpDXbFqfjbwmLkOOxc6NeeJOpO3GfPK+WhxVorY8P+sxyqRKr6+NCyJjAVnxwxm1gRibQ4VA==",
+  "success": true,
+  "projectFilePath": "/Users/deepbhupatkar/Desktop/Adv_Work/ADV_Projects/ApiEmployee/ApiEmployee/ApiEmployee.csproj",
+  "expectedPackageFiles": [
+    "/Users/deepbhupatkar/.nuget/packages/enterpriselibrary.common/6.0.1304/enterpriselibrary.common.6.0.1304.nupkg.sha512",
+    "/Users/deepbhupatkar/.nuget/packages/enterpriselibrary.data/6.0.1304/enterpriselibrary.data.6.0.1304.nupkg.sha512",
+    "/Users/deepbhupatkar/.nuget/packages/fluentvalidation/11.5.1/fluentvalidation.11.5.1.nupkg.sha512",
+    "/Users/deepbhupatkar/.nuget/packages/fluentvalidation.aspnetcore/11.3.0/fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "/Users/deepbhupatkar/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.5.1/fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
+    "/Users/deepbhupatkar/.nuget/packages/microsoft.aspnetcore.openapi/7.0.14/microsoft.aspnetcore.openapi.7.0.14.nupkg.sha512",
+    "/Users/deepbhupatkar/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/deepbhupatkar/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/2.1.0/microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
+    "/Users/deepbhupatkar/.nuget/packages/microsoft.netcore.platforms/3.1.0/microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "/Users/deepbhupatkar/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/Users/deepbhupatkar/.nuget/packages/microsoft.practices.enterpriselibrary.2008/4.1.0/microsoft.practices.enterpriselibrary.2008.4.1.0.nupkg.sha512",
+    "/Users/deepbhupatkar/.nuget/packages/microsoft.win32.registry/4.7.0/microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "/Users/deepbhupatkar/.nuget/packages/quintsys.practices.enterpriselibrary.data/1.0.5/quintsys.practices.enterpriselibrary.data.1.0.5.nupkg.sha512",
+    "/Users/deepbhupatkar/.nuget/packages/quintsys.system/1.0.5/quintsys.system.1.0.5.nupkg.sha512",
+    "/Users/deepbhupatkar/.nuget/packages/runtime.native.system.data.sqlclient.sni/4.7.0/runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
+    "/Users/deepbhupatkar/.nuget/packages/runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "/Users/deepbhupatkar/.nuget/packages/runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "/Users/deepbhupatkar/.nuget/packages/runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "/Users/deepbhupatkar/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "/Users/deepbhupatkar/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "/Users/deepbhupatkar/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "/Users/deepbhupatkar/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
+    "/Users/deepbhupatkar/.nuget/packages/system.data.sqlclient/4.8.5/system.data.sqlclient.4.8.5.nupkg.sha512",
+    "/Users/deepbhupatkar/.nuget/packages/system.security.accesscontrol/4.7.0/system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "/Users/deepbhupatkar/.nuget/packages/system.security.principal.windows/4.7.0/system.security.principal.windows.4.7.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "EnterpriseLibrary.Data 6.0.1304 depends on EnterpriseLibrary.Common (>= 6.0.0) but EnterpriseLibrary.Common 6.0.0 was not found. An approximate best match of EnterpriseLibrary.Common 6.0.1304 was resolved.",
+      "libraryId": "EnterpriseLibrary.Common",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'EnterpriseLibrary.Common 6.0.1304' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "EnterpriseLibrary.Common",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'EnterpriseLibrary.Data 6.0.1304' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "EnterpriseLibrary.Data",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Practices.EnterpriseLibrary.2008 4.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Practices.EnterpriseLibrary.2008",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Quintsys.Practices.EnterpriseLibrary.Data 1.0.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Quintsys.Practices.EnterpriseLibrary.Data",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Quintsys.System 1.0.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Quintsys.System",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+﻿<Properties StartupConfiguration="{987C8A6C-37F6-4460-B7FE-1DFB5297203B}|https">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.ApiEmployee PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ApiEmployee/appsettings.json">
+    <Files>
+      <File FileName="ApiEmployee/Models/Employee.cs" />
+      <File FileName="ApiEmployee/EmployeeValidation/EmployeeValidator.cs" />
+      <File FileName="ApiEmployee/DAL/Employee_DALBase.cs" />
+      <File FileName="ApiEmployee/Program.cs" />
+      <File FileName="ApiEmployee/DAL/DAL_Helpers.cs" />
+      <File FileName="ApiEmployee/Controllers/EmployeeController.cs" />
+      <File FileName="ApiEmployee/BAL/Employee_BALBase.cs" Line="21" Column="14" />
+      <File FileName="ApiEmployee/appsettings.json" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ApiEmployee" expanded="True">
+            <Node name="ApiEmployee" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True">
+                  <Node name="System.Data.SqlClient" selected="True" />
+                </Node>
+              </Node>
+              <Node name="BAL" expanded="True" selected="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="DAL" expanded="True" />
+              <Node name="EmployeeValidation" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+</Properties>
