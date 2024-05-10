@@ -7,6 +7,7 @@ namespace ApiEmployee.EmployeeValidation
 	public class EmployeeValidator : AbstractValidator<Employee>
 	{
 
+        // Implemented Fluent Validations technique to validate data in API.
 
 		public EmployeeValidator()
 
