@@ -10,7 +10,7 @@ namespace ApiEmployee.Models
         public String Contact { get; set; }
         public String Salary { get; set; }
 
-
+        public String EmailEmployyee { get; set; }
 
     }
 }
