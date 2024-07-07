@@ -1,0 +1,64 @@
+﻿@model APIConsumeEMP.Models.Employee
+
+<h2>Add/Edit Employee</h2>
+
+<div class="row">
+    <div class="col - md - 4">
+        <form asp-controller="Employee" asp-action="Save">
+            <div>
+
+            </div>
+            @Html.HiddenFor(x => x.EmpId)
+            <div class="from-group">
+                <span class="text-denger"> </span>
+                <label asp-for="EmpName" class="control-label"></label>
+                <input asp-for="EmpName" Class="form-control"></input>
+                <span asp-validation-for="EmpName" class="text-denger"> </span>
+            </div>
+
+            <div class="from-group">
+                <span class="text-denger"> </span>
+                <label asp-for="EmpCode" class="control-label"></label>
+                <input asp-for="EmpCode" Class="form-control"></input>
+                <span asp-validation-for="EmpCode" class="text-denger"> </span>
+            </div>
+
+            <div class="from-group">
+                <span class="text-denger"> </span>
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" Class="form-control"></input>
+                <span asp-validation-for="Email" class="text-denger"> </span>
+            </div>
+
+            <div class="from-group">
+                <span class="text-denger"> </span>
+                <label asp-for="Contact" class="control-label"></label>
+                <input asp-for="Contact" Class="form-control"></input>
+                <span asp-validation-for="Contact" class="text-denger"> </span>
+            </div>
+
+            <div class="from-group">
+                <span class="text-denger"> </span>
+                <label asp-for="Salary" class="control-label"></label>
+                <input asp-for="Salary" Class="form-control"></input>
+                <span asp-validation-for="Salary" class="text-denger"> </span>
+            </div>
+
+            <div class="from-group mt-2 ">
+                <button asp-action="Save" class="btn btn-primary">Save</button>
+                <a class="btn btn-info" asp-action="GET">Back To List</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts
+{
+  @{
+      await Html.RenderPartialAsync("_ValidationScriptsPartial");
+
+  }
+
+    
+}

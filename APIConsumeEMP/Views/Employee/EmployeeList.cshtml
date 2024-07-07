@@ -1,0 +1,72 @@
+﻿@model IEnumerable<APIConsumeEMP.Models.Employee>
+
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+
+@TempData["Message"]
+
+
+<h2>Employee List </h2>
+</hr>
+<p>
+    <a class="btn btn-sm btn-outline-success" asp-controller="Employee" asp-action="Edit"> Add New Employee</a>
+</p>
+
+
+
+
+<table class="table table-responsive table-striped">
+    <thead>
+        <tr>
+            <th>
+                EmployeeName
+            </th>
+            <th>
+                EmployeeCode
+            </th>
+            <th>
+                Email
+            </th>
+            <th>
+                Contact
+            </th>
+            <th>
+                Salary
+            </th>
+            <th>
+                Action
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+
+        {
+            <tr>
+                <th>
+                    @item.EmpName
+                </th>
+                <th>
+                    @item.EmpCode
+                </th>
+                <th>
+                    @item.Email
+                </th>
+                <th>
+                    @item.Contact
+                </th>
+                <th>
+                    @item.Salary
+                </th>
+                <th>
+                    <a href="@Url.Action("Edit","Employee",new { EmpId = item.EmpId } )" class="btn btn-sm btn-primary">Edit</a>
+                    <a href="@Url.Action("Delete","Employee",new { EmpId = item.EmpId } )" class="btn btn-sm btn-primary">Delete</a>
+                </th>
+            </tr>
+
+        }
+    </tbody>
+</table>
