@@ -45,5 +45,4 @@ Contributions to this project are welcome! To contribute:
 
         
 ## Future Updates
-
-Stay tuned for the upcoming project where I'll demonstrate how to consume this API in another application.
+Already Added project where I'll demonstrate how to consume this API in another application.
